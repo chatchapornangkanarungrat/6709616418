@@ -22,10 +22,11 @@ nav {
     background: #171d25;
     padding: 1px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navmenu , #navmenu {
-    font-family: Arial, Helvetica, sans-serif;
+    
     margin: 0px;
     padding-bottom: 17px;
     a {color: #5eb2e2}
@@ -40,6 +41,7 @@ nav {
     padding-bottom: 17px;
     a {color: #c1bfbc}
     a {text-decoration:none;}
+    a {font-size: 17px;}
     word-spacing: 200px;
 }
 
@@ -47,8 +49,10 @@ nav {
     word-spacing: 0px;
     margin: 0px;
     padding-bottom: 17px;
+    
     a {color: #c1bfbc}
     a {text-decoration:none;}
+    a {font-size: 17px;}
     word-spacing: 200px;
 }
 
@@ -155,12 +159,12 @@ body {
 
 .profile-desc, .profile-badge, .profile-desc1, .profile-desc2 {
     font-size: 14px;
-    color: #66c0f4; /* สีน้ำเงินใน+ขนาดฟ้อนต์ class for additional text */
+    color: #66c0f4; 
     margin-top: 5px;
 }
 
 .profile-contact {
-    color: #62c0f1; /* Hyperlink blue color */
+    color: #62c0f1;
     text-decoration: none;
 }
 .profile-desc1 {
@@ -387,8 +391,6 @@ background-size:cover;
     margin-top: 0px;
 }
 
-
-
 /* สำหรับ homepage *//* สำหรับ homepage *//* สำหรับ homepage *//* สำหรับ homepage *//* สำหรับ homepage *//* สำหรับ homepage */
 
 
@@ -399,7 +401,75 @@ background-size:cover;
 /* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture */
 
 
+.headcolumnbox {
+    margin: auto;
+    margin-top: 45px; /* Space between profile and recent am */
+    width: 1000px;
+}
+
+
+.headsec {
+    font-size: 40px;
+    font-weight: bold;
+    color: #acb2b8; 
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(0deg, rgba(23,29,37,0.9248074229691877) 35%, rgba(23,29,37,1) 100%);
+}
+
+.onecolumnbox {
+    display: flex; /* ใช้ Flexbox เพื่อจัดเรียง main และ aside */
+    margin-top: 0px;
+    width: 100%; /* กำหนดความกว้างเต็ม */
+    max-width: 1000px; /* กำหนดขนาดสูงสุด */
+    margin: auto; /* จัดให้อยู่กลาง */
+}
+
+main {  /* right side */
+    background-color: #0053b8;
+    width: 40%; /* ให้ main ใช้พื้นที่ 70% ของกล่อง */
+    height: 150px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+aside { /* left side */
+    background-color: #ffffff;
+    width: 60%; /* ให้ aside ใช้พื้นที่ 30% ของกล่อง */
+    height: 150px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.lsec1, .lsec2, .lsec3{
+    background-color: #0053b8;
+    width: 40%; /* ให้ main ใช้พื้นที่ 70% ของกล่อง */
+    height: 150px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.rsec1, .rsec2, .rsec3{
+    background-color: #ffffff;
+    width: 60%; /* ให้ aside ใช้พื้นที่ 30% ของกล่อง */
+    height: 150px;
+    padding: 20px;
+    margin-top: 10px;
+}
+/*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+
+.headtext{
+    color: #62c0f1;
+    font-size: 15px;
+}
 /* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture */
+
+
+
 
 
 
