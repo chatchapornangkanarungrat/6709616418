@@ -1,4 +1,61 @@
 @import url('https://fonts.cdnfonts.com/css/motiva-sans');
+
+
+
+/* สำหรับ homepage */
+header{
+    color: #d6d5d3;
+    font-family: 'Motiva Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: #171d25;
+    background-size: cover;
+
+    margin: 0px;
+    border: 0px;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+nav {
+    background: #171d25;
+    padding: 1px;
+    text-align: center;
+}
+
+.navmenu {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding-bottom: 17px;
+    a {color: #5eb2e2}
+    a {text-decoration:underline;}
+    a {font-size: 17px;}
+    word-spacing: 200px;
+}
+
+#nav1 {
+    word-spacing: 0px;
+    a {color: #c1bfbc}
+    a {text-decoration:none;}
+    word-spacing: 200px;
+}
+
+#nav2 {
+    word-spacing: 0px;
+    a {color: #c1bfbc}
+    a {text-decoration:none;}
+}
+
+.navpic {
+    width: auto;
+    height: 28px;
+    padding-right: 5px;
+}
+
+
+
+
 /* สำหรับ entire body */
 body {
     background-color: black; /* #101822;*/
@@ -38,21 +95,6 @@ body {
     min-width: 100%;
     min-height: 100%;
     /* if it work don't touch it*/
-}
-
-h1{
-    color: #c1bfbc;
-    font-family: 'Motiva Sans', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    background-color: #171d25;
-    background-size: cover;
-
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-    padding-top: 10px;
-    padding-bottom: 15px;
 }
 
 .cstu{
@@ -339,3 +381,25 @@ background-size:cover;
     width: 100%;
     margin-top: 0px;
 }
+
+
+
+/* สำหรับ homepage */
+
+
+
+
+
+
+/* สำหรับ myfuture */
+
+
+/* สำหรับ myfuture */
+
+
+
+
+/* สำหรับ myjourney */
+
+
+/* สำหรับ myjourney */
