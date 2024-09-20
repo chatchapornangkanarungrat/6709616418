@@ -26,7 +26,6 @@ nav {
 }
 
 .navmenu , #navmenu {
-    
     margin: 0px;
     padding-bottom: 17px;
     a {color: #5eb2e2}
@@ -320,7 +319,6 @@ body {
 .level-box {
     background-color: #2a475e;
     padding: 10px;
-    margin: px;
     border-radius: 0px;
     text-align: center;
     border: 1px solid #3c4759;
@@ -401,14 +399,14 @@ background-size:cover;
 /* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture */
 
 
-.headcolumnbox {
+.headcolumnboxf {
     margin: auto;
-    margin-top: 45px; /* Space between profile and recent am */
+    margin-top: 45px; 
     width: 1000px;
 }
 
 
-.headsec {
+.headsecf {
     font-size: 40px;
     font-weight: bold;
     color: #acb2b8; 
@@ -417,7 +415,7 @@ background-size:cover;
     background: linear-gradient(0deg, rgba(23,29,37,0.9248074229691877) 35%, rgba(23,29,37,1) 100%);
 }
 
-.onecolumnbox {
+.onecolumnboxf {
     display: flex; /* ใช้ Flexbox เพื่อจัดเรียง main และ aside */
     margin-top: 0px;
     width: 100%; /* กำหนดความกว้างเต็ม */
@@ -475,6 +473,42 @@ aside { /* left side */
 
 
 /* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney */
+
+.headcolumnboxj {
+    background-color: #101822;
+    margin: auto;
+    margin-top: 0px; 
+    width: 1000px;
+}
+
+.headsecj {
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(39,39,158,1) 86%, rgba(2,0,4,1) 100%);
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    
+    margin-bottom: 25px;
+}
+
+.onecolumnboxj {
+    display: flex; /* ใช้ Flexbox เพื่อจัดเรียง main และ aside */
+    flex-direction: column;
+    margin-top: 0px;
+    margin: auto; /* จัดให้อยู่กลาง */
+}
+
+.plan1 {
+    align-items: center;
+}
+
+.plan2 {
+    align-items: center;
+}
+
+
+
+
 
 
 /* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney */
