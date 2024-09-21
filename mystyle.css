@@ -398,7 +398,7 @@ background-size:cover;
 /* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture */
 .headcolumnboxf {
     margin: auto;
-    margin-top: 45px; 
+    margin-top: 25px; 
     width: 1000px;
 }
 
@@ -417,20 +417,20 @@ background-size:cover;
     display: flex; /* ใช้ Flexbox เพื่อจัดเรียง main และ aside */
     margin-top: 0px;
     width: 100%; /* กำหนดความกว้างเต็ม */
-    max-width: 1000px; /* กำหนดขนาดสูงสุด */
+    max-width: 1920px; /* กำหนดขนาดสูงสุด */
     margin: auto; /* จัดให้อยู่กลาง */
 }
 
 .picf {
     margin: auto;
-    width: 10px;
+    width: 700px;
     height: auto;
 }
 
 main {  /* right side */
     background-color: #101822;
-    width: 40%; /* ให้ main ใช้พื้นที่ 70% ของกล่อง */
-    height: 150px;
+    width: 300px; /* ให้ main ใช้พื้นที่ 70% ของกล่อง */
+    height: auto;
     padding: 20px;
     margin-top: 10px;
     margin-right: 10px;
@@ -438,31 +438,28 @@ main {  /* right side */
 
 aside { /* left side */
     background-color: #101822;
-    width: 60%; /* ให้ aside ใช้พื้นที่ 30% ของกล่อง */
-    height: 150px;
+    width: 700px; /* ให้ aside ใช้พื้นที่ 30% ของกล่อง */
+    height: fit-content;
     padding: 20px;
     margin-top: 10px;
 }
 
-.lsec1, .lsec2, .lsec3{
+.lsec1, .lsec2 {
     background-color: #101822;
-    width: 40%; /* ให้ main ใช้พื้นที่ 70% ของกล่อง */
-    height: 150px;
+    width: 300px; /* ให้ main ใช้พื้นที่ 70% ของกล่อง */
+    height: auto;
     padding: 20px;
     margin-top: 10px;
     margin-right: 10px;
 }
 
-.rsec1, .rsec2, .rsec3{
+.rsec1, .rsec2 {
     background-color: #101822;
-    width: 60%; /* ให้ aside ใช้พื้นที่ 30% ของกล่อง */
-    height: 150px;
+    width: 700px; /* ให้ aside ใช้พื้นที่ 30% ของกล่อง */
+    height: fit-content;
     padding: 20px;
     margin-top: 10px;
 }
-/*display: flex;
-    flex-direction: column;
-    align-items: center;*/
 
 .headtext{
     color: #62c0f1;
