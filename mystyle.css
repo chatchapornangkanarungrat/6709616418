@@ -409,10 +409,11 @@ margin-bottom: 0px;
 .headsecf {
     font-size: 40px;
     font-weight: bold;
-    color: #ebe9e9; 
+    color: #ffffff; 
     padding: 30px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(0deg, rgba(23,29,37,0.9248074229691877) 35%, rgba(23,29,37,1) 100%);
+    background: rgb(255,212,0);
+background: linear-gradient(90deg, rgba(255,212,0,0.7457098283931357) 0%, rgba(186,177,49,0.7472698907956319) 88%, rgba(4,4,0,0.750390015600624) 100%);
     margin-bottom: 15px;
 }
 
@@ -489,10 +490,11 @@ aside { /* left side */
     background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(39,39,158,1) 86%, rgba(2,0,4,1) 100%);
     text-align: center;
     font-size: 40px;
-    padding: 10px;
+    padding: 25px;
     font-weight: bold;
     color: #ebe9e9;
     margin-bottom: 50px;
+    margin-top: 25px;
 }
 
 .onecolumnboxj {
