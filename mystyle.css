@@ -429,6 +429,7 @@ background: linear-gradient(90deg, rgba(255,212,0,0.7457098283931357) 0%, rgba(1
     margin: auto;
     width: 700px;
     height: auto;
+    padding-bottom: 10px;
 }
 
 .miniboxtextf {
