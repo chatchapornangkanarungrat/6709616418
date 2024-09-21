@@ -491,7 +491,7 @@ aside { /* left side */
     padding: 20px;
     margin-top: 10px;
     margin-right: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .rsec1 {
     background-color: #101822;
@@ -507,7 +507,7 @@ aside { /* left side */
     height: fit-content;
     padding: 20px;
     margin-top: 10px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 #footerf {
