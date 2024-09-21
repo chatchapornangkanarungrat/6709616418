@@ -388,7 +388,6 @@ background-size:cover;
     width: 100%;
     margin-top: 0px;
 }
-
 /* สำหรับ homepage *//* สำหรับ homepage *//* สำหรับ homepage *//* สำหรับ homepage *//* สำหรับ homepage *//* สำหรับ homepage */
 
 
@@ -397,8 +396,6 @@ background-size:cover;
 
 
 /* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture *//* สำหรับ myfuture */
-
-
 .headcolumnboxf {
     margin: auto;
     margin-top: 45px; 
@@ -409,10 +406,11 @@ background-size:cover;
 .headsecf {
     font-size: 40px;
     font-weight: bold;
-    color: #acb2b8; 
+    color: #ebe9e9; 
     padding: 30px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     background: linear-gradient(0deg, rgba(23,29,37,0.9248074229691877) 35%, rgba(23,29,37,1) 100%);
+    margin-bottom: 15px;
 }
 
 .onecolumnboxf {
@@ -423,8 +421,14 @@ background-size:cover;
     margin: auto; /* จัดให้อยู่กลาง */
 }
 
+.picf {
+    margin: auto;
+    width: 10px;
+    height: auto;
+}
+
 main {  /* right side */
-    background-color: #0053b8;
+    background-color: #101822;
     width: 40%; /* ให้ main ใช้พื้นที่ 70% ของกล่อง */
     height: 150px;
     padding: 20px;
@@ -433,7 +437,7 @@ main {  /* right side */
 }
 
 aside { /* left side */
-    background-color: #ffffff;
+    background-color: #101822;
     width: 60%; /* ให้ aside ใช้พื้นที่ 30% ของกล่อง */
     height: 150px;
     padding: 20px;
@@ -441,7 +445,7 @@ aside { /* left side */
 }
 
 .lsec1, .lsec2, .lsec3{
-    background-color: #0053b8;
+    background-color: #101822;
     width: 40%; /* ให้ main ใช้พื้นที่ 70% ของกล่อง */
     height: 150px;
     padding: 20px;
@@ -450,7 +454,7 @@ aside { /* left side */
 }
 
 .rsec1, .rsec2, .rsec3{
-    background-color: #ffffff;
+    background-color: #101822;
     width: 60%; /* ให้ aside ใช้พื้นที่ 30% ของกล่อง */
     height: 150px;
     padding: 20px;
@@ -473,7 +477,6 @@ aside { /* left side */
 
 
 /* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney */
-
 .headcolumnboxj {
     background-color: #101822;
     margin: auto;
@@ -487,7 +490,8 @@ aside { /* left side */
     text-align: center;
     font-size: 40px;
     padding: 10px;
-    
+    font-weight: bold;
+    color: #ebe9e9;
     margin-bottom: 50px;
 }
 
@@ -509,6 +513,7 @@ aside { /* left side */
     color: #66c0f4;
     text-align: center;
     padding-bottom: 30px;
+
 }
 .subminiboxtextj {
     font-size: 25px;
@@ -551,7 +556,4 @@ aside { /* left side */
     padding-top: 50px;
     margin: auto;
 }
-
-
-
 /* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney *//* สำหรับ myjourney */
